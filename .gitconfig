@@ -1,0 +1,14 @@
+[alias]
+        amend = commit --amend
+        cp = cherry-pick
+        co = checkout
+        st = status
+        br = branch
+        lg = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[user]
+        email = edacih@gmail.com
+        name = Cade Daniel
+[color]
+        ui = true
+[push]
+        default = simple
