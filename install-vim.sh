@@ -9,6 +9,7 @@ git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 git clone git@github.com:majutsushi/tagbar.git ~/.vim/bundle/tagbar
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone https://github.com/rhysd/vim-color-spring-night ~/.vim/bundle/vim-color-spring-night
+git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 git clone https://github.com/tpope/vim-pathogen ~/.vim/bundle/vim-pathogen
 
 ln -s ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
