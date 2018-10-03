@@ -1,0 +1,36 @@
+0.0.1
+
+# General setup
+mosh
+git
+zsh
+gcc
+gcc-c++
+valgrind
+nodejs
+npm
+ruby
+linuxbrew
+java
+bzip2
+patch
+ant
+python
+
+# BUCK
+brew install ant python git watchman #LAME didn't work
+#will have to modify watchman file to depend on perl
+#yum install "perl(Data::Dumper)"
+install watchman manually (git clone)
+install buck manually + symlink to bin
+
+gitconfig
+copypaste
+
+#vim config
+mkdir -p ~/.vim/pathogen ~/.vim/bundle
+put in .vimrc
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
