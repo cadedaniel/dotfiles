@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
-# need to install zsh itself from your favorite package manager.
+
+set -e
+
+# Need to install zsh on your own, using apt-get or whatever. sudo probably required :(
+echo "Not installing zsh itself, need to upgrade dotfiles to use chef or something"
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sed -i 's/robbyrussell/gianu/g' ~/.zshrc
 echo "export EDITOR=vim" >> ~/.zshrc
