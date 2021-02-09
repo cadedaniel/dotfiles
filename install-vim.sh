@@ -4,7 +4,7 @@ set -e
 
 mkdir -p ~/.vim/bundle ~/.vim/autoload
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
-git clone git@github.com:majutsushi/tagbar.git ~/.vim/bundle/tagbar
+git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone https://github.com/rhysd/vim-color-spring-night ~/.vim/bundle/vim-color-spring-night
 

@@ -13,4 +13,5 @@
 [push]
         default = simple
 [core]
-	excludesfile = /home/ubuntu/.gitignore_global
+        excludesfile = ~/.gitignore_global
+        editor = vim
