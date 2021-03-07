@@ -16,10 +16,12 @@ ln -s ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 
 if [ -z "${DOTFILE_TMUX_BASIC_COLORS}" ]; then
-    ln -s ~/dotfiles/.tmux-basiccolor.conf ~/.tmux.conf
-elif
     ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+else
+    echo 'Using basic tmux colors'
+    ln -s ~/dotfiles/.tmux-basiccolor.conf ~/.tmux.conf
 fi
+
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
 
