@@ -14,7 +14,12 @@ git clone https://github.com/tpope/vim-pathogen ~/.vim/bundle/vim-pathogen
 
 ln -s ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
 ln -s ~/dotfiles/.vimrc ~/.vimrc
-ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+
+if [ -z "${DOTFILE_TMUX_BASIC_COLORS}" ]; then
+    ln -s ~/dotfiles/.tmux-basiccolor.conf ~/.tmux.conf
+elif
+    ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+fi
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
 
