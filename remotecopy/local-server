@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo Local copy server.
+while true; do
+    #nc -cl 2000 | pbcopy
+    netcat -l -p 2000 localhost | pbcopy
+    echo copied
+done
