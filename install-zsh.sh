@@ -11,3 +11,6 @@ echo "export EDITOR=vim" >> ~/.zshrc
 
 #https://unix.stackexchange.com/questions/179173/make-less-highlight-search-patterns-instead-of-italicizing-them
 echo "export TERM=xterm-256color" >> ~/.zshrc
+
+# DIY pbcopy on remote hosts.
+echo "alias pbcopy='nc -N localhost 2000'" >> ~/.zshrc
