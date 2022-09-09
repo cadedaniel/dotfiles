@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+sudo apt-get update
+sudo apt-get install zsh -y
+GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git clone git@github.com:cadedaniel/dotfiles.git
+cd ~/dotfiles
+./install-vim.sh
+echo 'n' | ./install-zsh.sh
