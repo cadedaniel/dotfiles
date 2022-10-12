@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
-filetype plugin indent on
+" Disabling this. With it on, yaml file editing is a pain.
+"filetype plugin indent on
 
 set hlsearch
 set number
