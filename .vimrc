@@ -10,7 +10,8 @@ set number
 set backspace=indent,eol,start
 "set expandtab
 set ruler
-colorscheme spring-night
+"colorscheme spring-night
+colo desert
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set wildmenu
