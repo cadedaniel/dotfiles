@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get upgrade # maybe not necessary for clang
 sudo apt-get install zsh curl silversearcher-ag jq sysstat -y
 
