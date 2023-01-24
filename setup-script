@@ -2,7 +2,7 @@
 
 sudo apt-get update -y
 sudo apt-get upgrade -y # maybe not necessary for clang
-sudo apt-get install zsh curl silversearcher-ag jq sysstat -y
+sudo apt-get install zsh curl silversearcher-ag jq sysstat vim htop -y
 
 sudo apt-get install clang-format-12 -y
 sudo ln -s /usr/bin/clang-format-12 /usr/bin/clang-format
