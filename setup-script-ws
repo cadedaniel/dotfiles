@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cd ~
+ln -s /mnt/user_storage/dotfiles dotfiles
+cd dotfiles
+
+./setup-script
+/mnt/user_storage/cadelabs/ray-core-dev/setup
