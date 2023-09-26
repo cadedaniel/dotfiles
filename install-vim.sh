@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e 
+#set -e 
 
 mkdir -p ~/.vim/bundle ~/.vim/autoload
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
