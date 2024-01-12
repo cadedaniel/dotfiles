@@ -5,6 +5,7 @@
         st = status
         br = branch
         lg = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+        lg-local = log --graph '--exclude=*origin*' --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 [user]
         email = edacih@gmail.com
         name = Cade Daniel
@@ -17,3 +18,8 @@
         editor = vim
 [commit]
         template = ~/.git_commit_message_template
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

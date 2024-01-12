@@ -14,3 +14,4 @@ echo "export TERM=xterm-256color" >> ~/.zshrc
 
 # DIY pbcopy on remote hosts.
 echo "alias pbcopy='nc -N localhost 2000'" >> ~/.zshrc
+echo "alias ag='ag --hidden'" >> ~/.zshrc
