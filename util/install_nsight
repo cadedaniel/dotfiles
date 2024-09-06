@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+mkdir -p /mnt/local_storage/nvidia
+wget \
+    https://developer.nvidia.com/downloads/assets/tools/secure/nsight-systems/2023_4_1_97/nsightsystems-linux-cli-public-2023.4.1.97-3355750.deb/ \
+    -O /mnt/local_storage/nvidia/nsightsystems-linux-cli-public-2023.4.1.97-3355750.deb
+
+sudo apt install /mnt/local_storage/nvidia/nsightsystems-linux-cli-public-2023.4.1.97-3355750.deb
