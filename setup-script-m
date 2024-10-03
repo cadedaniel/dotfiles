@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./setup-script
+sed -i 's/edacih@gmail.com/cade.daniel@databricks.com/g' ~/.gitconfig
