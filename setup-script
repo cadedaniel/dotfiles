@@ -2,10 +2,10 @@
 
 sudo apt-get update -y
 #sudo apt-get upgrade -y # maybe not necessary for clang
-sudo apt-get install zsh curl silversearcher-ag jq sysstat vim htop datamash lsof clang-format-12 -y
+sudo apt-get install zsh curl silversearcher-ag jq sysstat vim htop datamash lsof clang-format-12 pmisc -y
 
 #sudo apt-get install clang-format-12 -y
-sudo ln -s /usr/bin/clang-format-12 /usr/bin/clang-format
+#sudo ln -s /usr/bin/clang-format-12 /usr/bin/clang-format
 
 #GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git clone git@github.com:cadedaniel/dotfiles.git
 cd ~/dotfiles
