@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-
+sudo chmod 1777 /tmp
 ./setup-script
 sed -i 's/edacih@gmail.com/cade.daniel@databricks.com/g' ~/.gitconfig
