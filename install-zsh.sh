@@ -2,6 +2,8 @@
 
 set -e
 
+DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # Need to install zsh on your own, using apt-get or whatever. sudo probably required :(
 echo "Not installing zsh itself, need to upgrade dotfiles to use chef or something"
 
@@ -15,3 +17,4 @@ echo "export TERM=xterm-256color" >> ~/.zshrc
 # DIY pbcopy on remote hosts.
 echo "alias pbcopy='nc -N localhost 2000'" >> ~/.zshrc
 echo "alias ag='ag --hidden'" >> ~/.zshrc
+echo "[ -f \"$DOTFILES_DIR/ssh/agent-env.sh\" ] && . \"$DOTFILES_DIR/ssh/agent-env.sh\"" >> ~/.zshrc

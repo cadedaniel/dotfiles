@@ -15,4 +15,5 @@ rm ~/.vimrc
 rm ~/.tmux.conf
 
 ./install-vim.sh
+./install-ssh.sh
 echo 'n' | ./install-zsh.sh
